@@ -40,6 +40,7 @@
     "grunt": "~1.0.1",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-jshint": "^0.11.3",
+	"persistify": "^1.0.1",
     "grunt-mocha-test": "^0.12.7",
     "grunt-release": "^0.13.0",
     "jasmine-core": "^2.4.1",
@@ -57,7 +58,8 @@
   "peerDependencies": {
     "karma": ">=0.10.0",
     "browserify": ">=10 <14",
-    "watchify": ">=3 <4"
+    "watchify": ">=3 <4",
+	"persistify": ">=1.0.0"
   },
   "engines": {
     "node": ">=0.12",
